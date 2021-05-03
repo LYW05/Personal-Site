@@ -295,15 +295,22 @@ img {
 }
 
 .skills_javascript {
-    width: 50%;
+    width: 70%;
 }
 
 .skills_python {
     width: 80%
 }
 
-.skills_oracleSQL {
+.skills_SQL {
     width: 80%;
+}
+
+.skills_java {
+    width: 60%;
+}
+.skills_cplusplus {
+    width: 60%
 }
 
 .skills_img {
@@ -337,6 +344,9 @@ img {
 h3 {
     text-align: center;
 }
+
+/* Photography*/
+
 
 /* Contact */
 .contact_input {
