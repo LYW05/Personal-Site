@@ -121,7 +121,7 @@
 
                         <div class="skills_data">
                             <div class="skills_name">
-                                <i class='bx bxl-c-plus-plus'></i>
+                                <i class='bx bxl-c-plus-plus skills_icon'></i>
                                 <span class="skills_name">C++</span>
                             </div>
                             <div>
@@ -132,7 +132,6 @@
 
                         <div class="skills_data">
                             <div class="skills_name">
-                                <i class='bx bxl-java skills_icon'></i>
                                 <span class="skills_name">Java</span>
                             </div>
                             <div>
@@ -202,11 +201,11 @@
                 <h2 class="section-title">Contact Me</h2>
 
                 <div class="contact_container bd-grid">
-                    <form id="form" action="contact.php" method="post" class="contact_form">
-                        <input type="text" placeholder="Name" class="contact_input">
-                        <input type="mail" placeholder="Email" class="contact_input">
-                        <textarea name="" id="" cols="30" rows="10" class="contact_input"></textarea>
-                        <input type="button" value="Enter" class="contact_button button">
+                    <form id="form" action="contactform.php" method="post" class="contact_form">
+                        <input type="text" name="name" placeholder="Your Name" class="contact_input">
+                        <input type="mail" name="mail" placeholder="Your E-mail" class="contact_input">
+                        <textarea name="message" placeholder="Your Message" cols="30" rows="10" class="contact_input"></textarea>
+                        <input type="button" value="submit" class="contact_button button">
                     </form>
                 </div>
             </section>
