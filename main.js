@@ -54,5 +54,8 @@ sr.reveal('.skills__img',{delay: 600});
 /*SCROLL Project*/
 sr.reveal('.project__img',{interval: 200}); 
 
+/*SCROLL HHOBBY*/
+sr.reveal('.hobby__img', {interval: 200});
+
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
