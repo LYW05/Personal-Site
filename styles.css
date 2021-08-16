@@ -295,22 +295,22 @@ img {
 }
 
 .skills_javascript {
-    width: 70%;
+    width: 60%;
 }
 
 .skills_python {
-    width: 80%
+    width: 70%
 }
 
 .skills_SQL {
-    width: 80%;
+    width: 60%;
 }
 
 .skills_java {
-    width: 60%;
+    width: 50%;
 }
 .skills_cplusplus {
-    width: 60%
+    width: 50%
 }
 
 .skills_img {
@@ -343,28 +343,6 @@ img {
 
 h3 {
     text-align: center;
-}
-
-
-/* Contact */
-.contact_input {
-    width: 100%;
-    font-size: var(--normal-font-size);
-    font-weight: car(--font-semi);
-    padding: 1rem;
-    border-radius: 0.5rem;
-    border: 1.5px solid var(--second-color);
-    outline: none;
-    margin-bottom: var(--mb-4);
-}
-
-.contact_button {
-    display: block;
-    border: 1.5px solid var(--second-color);
-    outline: none;
-    font-size: var(--normal-font-size);
-    cursor: pointer;
-    margin-left: auto;
 }
 
 /* Footer */
@@ -461,14 +439,6 @@ h3 {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
         column-gap: 2rem;
-    }
-
-    .contact_form {
-        width: 360px;
-    }
-
-    .contact_container {
-        justify-items: center;
     }
 }
 
