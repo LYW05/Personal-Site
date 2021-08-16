@@ -2,4 +2,4 @@
 
 Portfolio Site
 
-*NOTE: The contact form is inactive
+*NOTE: The contact form utilizes Google forms
